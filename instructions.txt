@@ -1,0 +1,9 @@
+﻿Steps:
+
+1) Clone the repository
+
+2) Download packages from requirements.txt (pip install -r /path/to/requirements.txt)
+
+2) Run recommender.py (command-line: python recommender.py)
+
+3) Copy and paste the IP (http://127.0.0.1:5000/) in your browser's address bar and press Enter

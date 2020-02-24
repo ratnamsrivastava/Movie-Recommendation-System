@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+    <head>
+        <html lang="en" dir="ltr">
+        <meta charset="utf-8">
+        <style type="text/css">
+
+	      body
+	      {
+			border: 2px solid black;
+	   		padding: 2500;
+	   		margin: 0;
+	    	background: url("https://cdn.hipwallpaper.com/i/67/85/6HncY4.jpg");
+	    	background-repeat: no-repeat;
+	    	background-size: 100%;	      }
+
+	      h1
+	      {
+	        font-size:50px;
+	        margin-top:50px;
+	        font-family:Arial, sans-serif;
+	        text-shadow:2px 0 15px #292929;
+	        letter-spacing:6px;
+	        text-decoration:none;
+	        color:#AAA;
+	      }
+
+	      #banner
+	      {
+	        background-size: contain;
+	        text-align:center;
+	        background-repeat:no-repeat;
+	        border-radius:50px;
+	        padding: 250px;
+
+	      }
+
+	      .lead
+	      {
+	        background-color:rgba(255,255,255,0.7);
+	        border-radius:20px;
+	        font-family:Sintony, sans-serif;
+
+	      }
+
+        <title>Welcome</title>
+		</style>
+    </head>
+
+    <body>
+        {% extends "template.html" %}
+        {% block content %}
+        <h1 style="text-align:center;"><font color="gold"> ** Welcome to the Movie Recommender **</h1>
+
+	        <div id="banner">
+	        <form action="{{ url_for('rating') }}" method="GET">
+
+	     		<p class="lead"><font color="black"><strong>The idea is that you rate several pre-defined genres based on your taste and then<br/> receive a recommendation list containing the movies  that you'll probably like! <br/><br/><font color="black">Press GO when you are ready!</strong></p>
+	     		<button type="submit" class="btn btn-success"><font color="black"><strong>GO!</strong></button>
+	   		</form>
+	   		</div>
+	   		<div>
+
+        {% endblock %}
+	</body>
+</html>
+
