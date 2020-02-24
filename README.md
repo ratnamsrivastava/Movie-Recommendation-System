@@ -14,4 +14,4 @@ Run app.py (command-line: python app.py)
 
 Copy and paste the IP (http://127.0.0.1:5000/) in your browser's address bar and press Enter
 
-# Heroku URL: https://movie-recommender-system2020.herokuapp.com/
+Heroku URL: https://movie-recommender-system2020.herokuapp.com/
