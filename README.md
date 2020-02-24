@@ -1,6 +1,6 @@
 # Movie-Recommendation-System
 
-A Flask based Web App that is built over a Recommendation Engine: Generating recommendations based on top score of movies, each movie score is based on user's ratings through dot product.
+A Flask based Web App that is built over a Recommendation Engine: Generating recommendations based on the dot product of user's rating / score of different movie genres.
 
 Follow the instructions to run the Web App locally:
 
